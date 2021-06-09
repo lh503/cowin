@@ -1,0 +1,35 @@
+#card{
+    background-color: black;
+    width: 20%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+input{
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=submit]{
+    background-color: rgb(255, 187, 0);
+    display:flex;
+    margin-top:20px;
+    justify-content: center;
+    font-size:21px;
+}
+input[type=submit]:active{
+    background-color: rgb(238, 255, 0);
+}
+label{
+color: orange;
+}
+#newdata{
+width: 80%;
+margin: auto;
+padding-top:100px; 
+padding-bottom: 100px;
+}
